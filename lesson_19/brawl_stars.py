@@ -27,7 +27,7 @@ def guess_the_number():
     if n == n_c:
         return # выход из функции
     while n != n_c:
-        if n > n_c
+        if n > n_c:
             n = easygui.integerbox(msg='Какое число?',
                         lowerbound=1,
                         upperbound=99,
